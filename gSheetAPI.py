@@ -17,10 +17,14 @@ header = data.iloc[0]
 data = data[1:]
 data.columns = header
 
+dates = ['DOB', 'signUpDate']
 
-data['DOB'] = pd.to_datetime(data['DOB'], infer_datetime_format=True)
-data['DOB'] = data['DOB'].dt.date
+for i in dates:
+    data[i] = pd.to_datetime(data[i], infer_datetime_format=True)
+    data[i] = data[i].dt.date
 
+data['firstName'] = data['Name'].map(lambda x:x.split(' ', 1)[0])
+data['lastName'] = data['Name'].map(lambda x:x.split(' ', 1)[-1])
 
 engine = create_engine('mysql://jack:jack1620@tutorials.clpvlhaqk6id.us-east-1.rds.amazonaws.com:3306/tutorialDB')
-data.to_sql(name='pipelineTable', con=engine, if_exists='fail', index=False, chunksize=1000)
+data.to_sql(name='pipelineTable', con=engine, if_exists='replace', index=False, chunksize=1000)
