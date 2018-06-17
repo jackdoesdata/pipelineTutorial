@@ -1,5 +1,8 @@
 FROM python:2.7.13
 
+# Pull newest version of git repo
+run git pull
+
 # Make directory for Docker
 run mkdir ca_docker
 
