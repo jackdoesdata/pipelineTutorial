@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pipelinetutorial",
+  "private_key_id": "8fff966109706952146bba22737689a842d2d354",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDR1Phm2C+HQWmx\nStSWxXeY03Un/8fORVxyjAHS58Ezx3bodizvnjz6ujc/Kcl7fDAJKjJgNOKA9KdV\nDKuBuzbRTUXS2BNdBhGAknOyjaV9Wthog/tIhyLbnq6JkqvlCCFpKZuFkg0Vgb8V\nvHu4+O67CGrIBnaV+gApmSpECv9M/b96FZVgUY6WxMHKtctiOKv2AdIzweu8r1oI\nE/TVujb9kWD+Tuvkgv92zH5C5dV+1pH4gHrqNH4n8MAC9A7rYcCzmsnA0fVwB0cc\nWXM5tsnuv2Zosmm8Ge/lmXE0AoDPmhbBxXt2bBwkFPWolNGhm4d7njKIaHbaQSTH\nQ8P0BxdnAgMBAAECggEAL0RlTG2Ij1RZ5bkwmGIVJdUEgCUrMjkHsTn+sy7Ho81b\n6NOuHbAslmJaTZ0xKOL5wybBQFDJcTkrdIotHEU6/P0GLI/GFN9oE+lprKAh1lIf\ni7OnaFggrw5YzN7AYBBrzk+0G+uhjOW0UMYrrKhOxs0HmNVz4yb04GoDTl6X0hSy\nOSxe4KVTblo63lu6S2Xyxpx1FOc7QPx3wwopn+KGCOceFTqOtBPTcVbSsrav6anR\n0ztT7x13quRonPDXnd/47VfNKcafXw51wE8In7nSwJxVA/p2FsomW7Mw5pYV0jYV\nZKFXB/AhG8TOMzYN6YMM3oBiPll8GZwFUvjFZ87y8QKBgQD9H7u9DIa98+R7aanF\nEJG41nv2ziNOwW8PW2i7GR3XGAR+IUGr7/9RwxFzTMy4voA6ilPZHb/9mIMwQ3GD\n4jB0+cYy36Wgm0PFbK6NWxm+CDSeW+xczhUVRD8UqroTbfpOlV0i+f5OmB/dNHS9\nfQx2HksJ6keVAxZWrFm8si4+/wKBgQDUN1ADElzJiDq4TAUPTJoQBTIbZSDs6wZu\nKXiG/RA/B1ypfp7uBuLjEt/JeUX/E0yxEDPlFwwvQtU/9SvdaK1jkFbGMTQ4BDpc\n29ISVc4qDGUxgqWoMY6AZGQdJIiztbpayyp2dpUUJGr6ULYXKuf77ARDXJFzK7xG\n5nUB0c2PmQKBgE9R92npl/vEhu/pj6rSY2fRxqzzsfrHAP+F/I7M8x3pR9ciosq3\nfYHop/pCsdCe2d3+ZQIfoX9doJaqO9NBOUAe2W4tyWBH53fhc92WE74KIjsRwULf\nzZmJdl8KlR7rksm3YqVIQ9nrL+kIvCB5JEOLgKZNxTq76e8lOUW5bGaPAoGBAISF\n3iNs7iC0P+cjIe3B6luiwv20k3Ef+64Dm87AbcrOcCEwf1MpXbpr6PBKGVoG1Vel\nRKMFV4iT9dOw6Smk2tJYKrgttexdR40BgRgOGWbMwsy+R3DXMaQgDRzd2bhP/gYA\n5Y2A0+v2KhATIwMouiHp62edgP8pCrRD6kGuoO3RAoGBAKOuqhVXbvxI+e3jG3PQ\nOskTjt/1T+vGHtJ4p0PKwhLYSxMeTk2nL1cdTEo4yOJDtooqC8ZNVI2e0UmbwGcu\nmcn79mpETNPFQcNAW41BKAKO6RyC/Ddfm6bnBkC92vDd0DRhrkWvQwwU0VwPt56F\nUpUDbaGjn2HbXjGGYqcZlFUS\n-----END PRIVATE KEY-----\n",
+  "client_email": "pipelineemail@pipelinetutorial.iam.gserviceaccount.com",
+  "client_id": "107078861077220720233",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pipelineemail%40pipelinetutorial.iam.gserviceaccount.com"
+}
