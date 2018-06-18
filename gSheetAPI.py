@@ -41,3 +41,7 @@ data['lastName'] = data['Name'].apply(lambda x:x.split(' ')[-1])
 # Create connection to database and push dataframe. Will replace old table.
 engine = create_engine('mysql://jack:jack1620@tutorials.clpvlhaqk6id.us-east-1.rds.amazonaws.com:3306/tutorialDB')
 data.to_sql(name='pipelineTable', con=engine, if_exists='replace', index=False, chunksize=1000)
+
+
+# Print a line in the terminal to let you know your push was successful!
+print ('Great Success!')
